@@ -14,6 +14,28 @@
     height: 100%;
 }
 
+/* Texts sizes */
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 3rem;
+}
+
 .text-center {
     text-align: center;
 }
@@ -61,6 +83,42 @@
     background: transparent;
     border: 1px solid #fff;
 }
+
+/* Backgrounds & Collored Buttons */
+
+.bg-primary, 
+.btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.bg-secundary, 
+.btn-secundary {
+    background: var(--secundary-color);
+    color: #fff;
+}
+
+.bg-dark, 
+.btn-dark {
+    background: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light, 
+.btn-light {
+    background: var(--light-color);
+    color: #333;
+}
+
+.bg-primary a, 
+.btn-primary a,
+.bg-secundary a, 
+.btn-secundary a,
+.bg-dark a, 
+.btn-dark a {
+    color: #fff;
+}
+
 
 /* button with transparent background  */
 
