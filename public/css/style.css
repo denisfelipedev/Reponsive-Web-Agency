@@ -50,6 +50,10 @@
     overflow: visible;
 }
 
+.showcase-text {
+    animation: slideInFromLeft 0.8s ease-in;
+}
+
 .showcase-form {
     position: relative;
     top: 60px;
@@ -58,6 +62,7 @@
     padding: 40px;
     z-index: 100;
     justify-self: flex-end;
+    animation: slideInFromRight 0.8s ease-in;
 }
 
 .showcase-form .form-control {
@@ -97,6 +102,7 @@
 .stats {
     /* margin: 90px 0; */
     padding-top: 100px;
+    animation: slideInFromBottom 0.8s ease-in;
 }
 
 .stats-heading {
@@ -241,11 +247,13 @@
     .showcase-text {
         text-align: center;
         margin-top: 40px;
+        animation: slideInFromTop 0.6s ease-in;
     }
 
     .showcase-form {
         justify-self: center;
         margin: auto;
+        animation: slideInFromBottom 0.6s ease-in;
     }
 
     .cli .grid > *:first-child {
